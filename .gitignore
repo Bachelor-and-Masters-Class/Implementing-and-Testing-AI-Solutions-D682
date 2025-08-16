@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE/editor (IntelliJ/VS Code)
+.idea/
+*.iml
+.vscode/
+workspace.xml
+modules.xml
+misc.xml
+vcs.xml
+
+# OS junk
+.DS_Store
+Thumbs.db
+*.swp
+
+# Data (keep local unless allowed)
+data/*.xlsx
+
+# Keep artifacts in repo (do NOT ignore)
+# (intentionally no 'artifacts/' line here)
