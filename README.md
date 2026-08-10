@@ -1,6 +1,6 @@
 **Overview**
 
-This repository contains my completed submission for the WGU course **D682 – Implementing and Testing AI Solutions**.
+This repository contains my completed submission for the WGU course **D682: Implementing and Testing AI Solutions**.
 
 The project implements and validates a complete supervised machine learning system for predicting urban air quality and associated population health outcomes. Rather than a single notebook, the deliverable is a parameterized, command-line driven pipeline that can be pointed at a dataset, configured for one or more prediction targets, and run reproducibly to produce a full evidence trail of results.
 
@@ -95,12 +95,12 @@ python dqn1_model.py --data "DQN1 Dataset.xlsx" --target "PM2.5,health_risk_scor
 
 **Repository Contents**
 
--`dqn1_model.py` – Complete pipeline: ingestion, preprocessing, tuning, evaluation, and artifact generation
+-`dqn1_model.py`: Complete pipeline: ingestion, preprocessing, tuning, evaluation, and artifact generation
 
--`requirements.txt` – Python dependencies
+-`requirements.txt`: Python dependencies
 
--`artifacts/pm2.5/` – Evaluation results and visualizations for PM2.5 prediction
+-`artifacts/pm2.5/`: Evaluation results and visualizations for PM2.5 prediction
 
--`artifacts/healthRiskScore/` – Evaluation results and visualizations for health risk prediction
+-`artifacts/healthRiskScore/`: Evaluation results and visualizations for health risk prediction
 
--`artifacts/severityScore/` – Evaluation results and visualizations for severity prediction
+-`artifacts/severityScore/`: Evaluation results and visualizations for severity prediction
